@@ -1,5 +1,5 @@
 % Load the audio file
-[audio, Fs] = audioread("/MATLAB Drive/hello-moto-2-59030.mp3"); % Replace with your audio file
+[audio, Fs] = audioread("Enter the audio file"); % Replace with your audio file
 
 
 sound(audio, Fs);
